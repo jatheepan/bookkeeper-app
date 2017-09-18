@@ -8,12 +8,6 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('about');
-  this.route('users', function() {
-    this.route('detail', {
-      path: '/detail/:user_id'
-    });
-  });
-
   this.route('page-not-found', {
     path: '/*wildcard'
   });
