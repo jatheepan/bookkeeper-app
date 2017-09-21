@@ -11,6 +11,9 @@ Router.map(function() {
   this.route('page-not-found', {
     path: '/*wildcard'
   });
+  this.route('users', function() {
+    this.route('new');
+  });
 });
 
 export default Router;
