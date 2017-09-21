@@ -9,6 +9,8 @@
 /node_modules
 /bower_components
 
+app/**/*.css
+app/**/*.map
 # misc
 /.sass-cache
 /connect.lock
