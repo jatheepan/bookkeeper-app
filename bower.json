@@ -1,0 +1,20 @@
+{
+  "name": "office",
+  "description": "Small description for office goes here",
+  "main": "",
+  "authors": [
+    "Jatheepan Kanthavel <theepan@cutedrops.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jatheepan/bookkeeper-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
