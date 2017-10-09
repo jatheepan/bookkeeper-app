@@ -1,0 +1,19 @@
+{{yield}}
+
+<table>
+    <tr>
+        {{#each headers as |header|}}
+            <th>{{header}} <button {{action sort="'sdfs'"}}>Test</button></th>
+
+        {{/each}}
+    </tr>
+
+{{#each rows as |row|}}
+   <tr class="row">
+   {{#each row as |field|}}
+       <td class="column">{{field}}</td>
+   {{/each}}
+   </tr>
+{{/each}}
+{{yield}}
+</table>

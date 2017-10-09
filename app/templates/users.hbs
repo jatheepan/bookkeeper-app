@@ -1,5 +1,6 @@
 <h2>Users</h2>
-{{#each model as |user|}}
-    <p>{{user.username}}</p>
-{{/each}}
+{{#sort-list items=model fields='firstName,lastName,email,username'}}
+    header
+{{/sort-list}}
+
 {{outlet}}
