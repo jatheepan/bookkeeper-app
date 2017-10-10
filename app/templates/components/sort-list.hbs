@@ -1,17 +1,17 @@
 {{yield}}
 
-<table>
+<table class="unstriped hover">
     <tr>
         {{#each headers as |header|}}
-            <th>{{header}} <button {{action sort="'sdfs'"}}>Test</button></th>
+            <th>{{header}}</th>
 
         {{/each}}
     </tr>
 
 {{#each rows as |row|}}
-   <tr class="row">
+   <tr>
    {{#each row as |field|}}
-       <td class="column">{{field}}</td>
+       <td>{{field}}</td>
    {{/each}}
    </tr>
 {{/each}}
